@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Index</title>
+</head>
+<body>
+    <div id="geral">
+        <div id="cabecalho" class="tilulo"><h1>Super Calculadora</h1></div>
+
+        <div id="principal">
+
+            <form name="numeros">
+                <p>Informe o primeiro número: 
+                    <input type="number" id="numberOne" required="required" />
+                </p>
+                <p>Informe o segundo número: 
+                    <input type="number" id="numberTwo" required="required" />
+                </p>
+                <input type="button" onclick="javascript:receberDados();" name="name" value="Enviar">
+            </form>
+            
+            <div id="conteudo-1">
+                <h3>Adição: (A + B)</h3>
+                <input type="text" id="resultadoAdicao">
+                <br>
+                <h3>Multiplicação: (A x B)</h3>
+                <input type="text" id="resultadoMultiplicacao">
+                <h3>Potenciação: (A²)</h3>
+                <input type="text" id="resultadoPotenciacaoA">
+                <h3>Divisores: (B)</h3>
+                <input type="text" id="resultadoDivisoresB">
+            </div>
+
+            <div id="conteudo-2">
+
+                <div id="conteudo-2-1">
+                    <h3>Subtração: (A - B)</h3>
+                    <input type="text" id="resultadoSubtracaoA">
+                    <h3>Divisão: (A / B)</h3>
+                    <input type="text" id="resultadoDivisaoA">
+                    <h3>Potenciação: (B²)</h3>
+                    <input type="text" id="resultadoPotenciacaoB">
+                    <h3>Fatorial: (A)</h3>
+                    <input type="text" id="resultadoFatorialA">
+                </div>
+
+                <div id="conteudo-2-2">
+                    <h3>Subtração: (B - A)</h3>
+                    <input type="text" id="resultadoSubtracaoB">
+                    <h3>Divisão: (B / A)</h3>
+                    <input type="text" id="resultadoDivisaoB">
+                    <h3>Divisores: (A)</h3>
+                    <input type="text" id="resultadoDivisoresA">
+                    <h3>Fatorial: (B)</h3>
+                    <input type="text" id="resultadoFatorialB">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="copy">
+        <p>Murilo Carbol Medina</p>
+      </footer>
+    <script src="script.js"></script>
+</body>
+</html>

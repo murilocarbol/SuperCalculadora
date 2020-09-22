@@ -1,0 +1,80 @@
+body {
+    margin:0;
+    padding:0;
+    color:#000;
+    background:#F0F1F2;
+}
+
+#geral {
+    width:960px;
+    margin:0 auto;
+    text-align: center;
+}
+
+#cabecalho {
+    padding:10px;
+    text-align: center;
+    font-family: georgia;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-style: oblique;
+    font-variant: normal;
+    line-height: 1;
+    margin-bottom: 1rem;
+    color: #48C9B0;
+    font-weight: bold;
+}
+
+#principal{
+    text-align: center;
+    font-family: georgia;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+input{
+    border-color: #504a49;
+    border-style: solid;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#conteudo-1 {
+    float:left;
+    width:230px;
+    padding:10px;
+    padding-left: 0px;
+    padding-top: 50px;
+}
+
+#conteudo-2-1 {
+    float:left;
+    width:460px;
+    padding:10px;
+    padding-top: 45px;
+}
+
+#conteudo-2-2 {
+    float:right;
+    width:210px;
+    padding:10px;
+    padding-top: 45px;
+}
+
+.copy{
+    margin-bottom: 0;
+}
+
+.copy p{
+    padding-top:300px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 370px;
+    font-size: 1.3rem;
+}
